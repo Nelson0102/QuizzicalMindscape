@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Quizzical Mindscape</string>
+    <string name="default_web_client_id">689184221635-b0bp9bkp5b8prck2trbpgtgpj6galqrd.apps.googleusercontent.com</string>
+    <string name="quizzical_mindscape">Quizzical Mindscape</string>
+    <string name="register">Register</string>
+    <string name="welcome_message">Hello, %s</string>
+    <string name="score_format">%1\$d/5</string>
+</resources>

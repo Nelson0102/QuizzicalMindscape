@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "689184221635",
+    "project_id": "quizzical-mindscape",
+    "storage_bucket": "quizzical-mindscape.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689184221635:android:d03ce89e17ebe752a37576",
+        "android_client_info": {
+          "package_name": "com.example.quizzicalmindscape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689184221635-usmp9gil3tcufhm40qs6v4omvkgqq4js.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.quizzicalmindscape",
+            "certificate_hash": "46507c5b5340371ecf805aeabf91357e34dded06"
+          }
+        },
+        {
+          "client_id": "689184221635-b0bp9bkp5b8prck2trbpgtgpj6galqrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMPPiybn7IpneHZZg5z9iDMVu3-7nuf7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689184221635-b0bp9bkp5b8prck2trbpgtgpj6galqrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689184221635:android:7e0d7b37e5634467a37576",
+        "android_client_info": {
+          "package_name": "com.game.quizzicalmindscape"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689184221635-b0bp9bkp5b8prck2trbpgtgpj6galqrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMPPiybn7IpneHZZg5z9iDMVu3-7nuf7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689184221635-b0bp9bkp5b8prck2trbpgtgpj6galqrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

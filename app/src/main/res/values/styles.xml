@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="CircularButton">
+        <item name="android:background">@drawable/circle_button_background</item>
+        <item name="android:layout_width">100dp</item> <!-- Adjust size as needed -->
+        <item name="android:layout_height">100dp</item>
+        <item name="android:padding">16dp</item> <!-- Adjust padding as needed -->
+        <item name="android:scaleType">centerInside</item> <!-- Ensure image fits perfectly -->
+    </style>
+
+
+</resources>

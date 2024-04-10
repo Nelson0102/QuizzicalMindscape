@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/t1hdvvmko2671"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="Welcome, User!"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="16dp" />
+
+
+    <TextView
+        android:id="@+id/categoriesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Test your Knowledge below:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_below="@id/welcomeText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Java and Python Buttons -->
+    <LinearLayout
+        android:id="@+id/javaPythonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/categoriesText"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <!-- Java Button -->
+        <ImageButton
+            android:id="@+id/javaButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/java_logo"
+            android:background="@drawable/circle_button_background"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitCenter" />
+
+        <!-- Python Button -->
+        <ImageButton
+            android:id="@+id/pythonButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/python_logo"
+            android:background="@drawable/circle_button_background"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <!-- C++ and HTML Buttons -->
+    <LinearLayout
+        android:id="@+id/cppHtmlLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/javaPythonLayout"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <!-- C++ Button -->
+        <ImageButton
+            android:id="@+id/cppButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cpp_logo"
+            android:background="@drawable/circle_button_background"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitCenter" />
+
+        <!-- HTML Button -->
+        <ImageButton
+            android:id="@+id/htmlButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/html_logo"
+            android:background="@drawable/circle_button_background"
+            android:layout_marginEnd="8dp"
+            android:scaleType="fitCenter" />
+
+    </LinearLayout>
+
+    <!-- Logout Button -->
+    <ImageButton
+        android:id="@+id/logoutButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/logout_logo"
+        android:background="@drawable/circle_button_background"
+        android:scaleType="fitCenter" />
+
+    <!-- Switch Account Button -->
+    <ImageButton
+        android:id="@+id/switchAccountButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/switchaccount_logo"
+        android:background="@drawable/switchaccount_logo"
+        android:scaleType="fitCenter" />
+
+</RelativeLayout>
